@@ -4,7 +4,9 @@
 
 This is the course material for WM-01, Summer Semester 2024 (year of the
 dragon), Faculty of Biology, University of Freiburg. The instructors are Prof.
-Dr. Andrew Straw and Dr. Michael Harrap.
+Dr. Andrew Straw, Dr. Wolfgang Maier, and Dr. Michael Harrap.
+
+ILIAS link - https://ilias.uni-freiburg.de/goto.php?target=crs_3529938&client_id=unifreiburg
 
 ## Run interactively at https://strawlab-rp2.zoologie.uni-freiburg.de
 
@@ -35,3 +37,21 @@ conda activate wm01-dragon
 ```
 
 ## The Python Tutor - extremely highly recommended
+
+http://pythontutor.com/
+
+## Troubleshooting
+
+### Note for macOS users
+
+Before starting `jupyter notebook` from the command line, you may like to type:
+
+    ulimit -n 4096
+
+This will solve [OSError: [Errno 24] Too many open files](https://github.com/jupyterlab/jupyterlab/issues/6727).
+
+## Code of conduct
+
+Anyone who interacts with this software in any space, including but not limited
+to this GitHub repository, must follow our [code of
+conduct](code_of_conduct.md).
