@@ -12,7 +12,7 @@ dependencies:
   - pytables=3.9.2
   - imageio=2.33.1
   - nbconvert=7.10.0
-  - jupyter_server=2.25.1
+  - jupyter_server=2.10.0
   - requests=2.31.0
   - pip:
       - adskalman==0.3.11
