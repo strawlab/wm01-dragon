@@ -15,6 +15,9 @@ dependencies:
   - jupyter_server=2.10.0
   - requests=2.31.0
   - pytest=7.4.0
+  # # On our server, also these were installed:
+  # - jupyterhub=5.0.0
+  # - nbgrader=0.9.3
   - pip:
       - adskalman==0.3.11
       - ultralytics==8.1.9
