@@ -18,6 +18,7 @@ dependencies:
   - pytest=7.4.0
   # From here, packages are in addition to stock Anaconda.
   - pip:
+      - nbgrader==0.9.3
       - mypy==1.10.0
       - adskalman==0.3.11
       - ultralytics==8.1.9
