@@ -1,5 +1,6 @@
 name: wm01-dragon
 dependencies:
+  # This is all in stock Anaconda base environment as of 23 June 2024:
   - python=3.11.7
   - pip=23.3.1
   - numpy=1.26.4
@@ -15,7 +16,9 @@ dependencies:
   - jupyter_server=2.10.0
   - requests=2.31.0
   - pytest=7.4.0
-  # # On our server, also these were installed:
+  # From here, packages are in addition to stock Anaconda.
+  - mypy=1.10.0
+  # # On our server, also these were installed, but not needed for most users.
   # - jupyterhub=5.0.0
   # - nbgrader=0.9.3
   - pip:
