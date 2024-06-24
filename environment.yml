@@ -17,10 +17,7 @@ dependencies:
   - requests=2.31.0
   - pytest=7.4.0
   # From here, packages are in addition to stock Anaconda.
-  - mypy=1.10.0
-  # # On our server, also these were installed, but not needed for most users.
-  # - jupyterhub=5.0.0
-  # - nbgrader=0.9.3
   - pip:
+      - mypy==1.10.0
       - adskalman==0.3.11
       - ultralytics==8.1.9
