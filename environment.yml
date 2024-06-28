@@ -22,3 +22,4 @@ dependencies:
       - mypy==1.10.0
       - adskalman==0.3.11
       - ultralytics==8.1.9
+      - imageio-ffmpeg==0.5.1
